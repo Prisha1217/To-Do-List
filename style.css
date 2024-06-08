@@ -1,0 +1,83 @@
+html{
+    padding: 0;
+    background-color: #7d59e7;
+}
+
+.todo-card{
+    margin:130px auto;
+    max-width: 320px;
+    background-color: #e9e1ff;
+    padding:20px 34px;
+    
+}
+
+.todo-input-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-btn{
+    padding:12px 16px; 
+    margin-left: 10px;  
+    background-color:#9726cb;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-btn:hover{
+    background-color:#9726cbba;
+}
+
+.todo-input{
+    border: 1px solid rgba(165, 165, 165, 0.707);
+    width:100%;
+    padding:8px 20px;
+    font-size: 15px;
+    height:24px;
+}
+
+.todo-input:focus{
+    outline:none;
+}
+
+
+.todo-list{
+    margin: 22px 0px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.todo-list label{
+    margin-left:14px;
+
+}
+
+
+.todo-task{
+    background-color: #BCBCFF;
+    padding:19px 14px 12px 14px;
+    font-size: 20px;
+    margin:12px 3px;
+    border-radius: 8px;
+}
+
+.todo-task-input{
+    height:16px;
+    width: 16px;
+}
+
+
+.todo-task-content{
+    overflow: hidden;
+}
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
